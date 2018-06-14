@@ -2,8 +2,8 @@ def badge_maker
   
 end
 
-def batch_badge_creator(names)
-  names =  "Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", and "Matz"
+def batch_badge_creator(speakers)
+  speakers =  "Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", and "Matz"
 end
 
 def assign_rooms
