@@ -1,12 +1,5 @@
-def badge_maker
-  
-end
+attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-def batch_badge_creator(speakers)
-  speakers =  "Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", and "Matz"
+def badge_maker(name)
+  "Hello, my name is #{name}."
 end
-
-def assign_rooms(speakers, rooms)
-  speakers.each_with_index{ rooms, index}
-  "Hello, #{speakers}! You'll be assigned to room #{rooms}!"
-end 
