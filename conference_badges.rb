@@ -8,5 +8,5 @@ end
 
 def assign_rooms(speakers, rooms)
   speakers.each_with_index{ rooms, index}
-  "Hello, _____! You'll be assigned to room _____!"
+  "Hello, {speakers}! You'll be assigned to room _____!"
 end 
