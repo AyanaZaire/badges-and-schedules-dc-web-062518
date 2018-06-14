@@ -7,6 +7,6 @@ def batch_badge_creator(speakers)
 end
 
 def assign_rooms(speakers, rooms)
-  
+  speakers.each_with_index(rooms)
   "Hello, _____! You'll be assigned to room _____!"
 end 
